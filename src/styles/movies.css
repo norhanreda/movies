@@ -1,0 +1,17 @@
+.movies {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    margin: 10px 0 10px 10px ;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+
+}

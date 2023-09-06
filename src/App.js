@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Movies from './components/Movies';
+import ResponsiveAppBar from './components/navBar'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Movies/>
+       
+      <div style={{backgroundColor:"gray",padding:"10px",margin:"10px  auto 0px auto",position:"fixed",bottom:"0",right:"0",left:"0"}}>  &#169; norhan reda 2023 ITI</div>
+   
     </div>
+    
   );
 }
 
