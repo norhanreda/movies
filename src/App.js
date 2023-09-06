@@ -2,6 +2,8 @@
 import './App.css';
 import Movies from './components/Movies';
 import ResponsiveAppBar from './components/navBar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 function App() {
   return (
     <div className="App">

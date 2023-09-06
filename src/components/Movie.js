@@ -18,12 +18,12 @@ const Movie = (probs) => {
   const imgPath = "https://image.tmdb.org/t/p/w500/";
   
 return (<>
-    <div className='card'>
-        <img  src={imgPath+poster_path} width={200} height={200}  />
-        <h3 style={{textAlign:"left"}} > {title}</h3>
-        <h6 style={{textAlign:"left",color:"gray"}} >{release_date}</h6>
+    <div className='card col-lg-2  col-sm-12 '>
+        <img  src={imgPath+poster_path} className='image' />
+        <h6 style={{textAlign:"left" ,fontFamily:"sans-serif"}} > {title}</h6>
+        <p style={{textAlign:"left",color:"gray" ,fontSize:"10px",fontFamily:"sans-serif"}} >{release_date}</p>
 
-        <button>know more.......</button>
+        <button >know more.......</button>
     
 
     </div>
