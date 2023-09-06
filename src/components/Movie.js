@@ -23,7 +23,7 @@ return (<>
         <h6 style={{textAlign:"left" ,fontFamily:"sans-serif"}} > {title}</h6>
         <p style={{textAlign:"left",color:"gray" ,fontSize:"10px",fontFamily:"sans-serif"}} >{release_date}</p>
 
-        <button >know more.......</button>
+        <button className='botn' >know more.......</button>
     
 
     </div>

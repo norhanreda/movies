@@ -8,11 +8,19 @@
 .card {
 
     padding: 10px;
-    margin: 5px;
+    margin: 30px 2px;
     border: 1px solid gainsboro;
     border-radius: 10px;
 
 }
 .image{
     width: 100%;
+}
+
+.botn {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: pink;
+    color: azure;
+    font-family: sans-serif;
 }
