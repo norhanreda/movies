@@ -10,7 +10,8 @@ const Home = () => {
             "url(https://getwallpapers.com/wallpaper/full/1/b/d/829640-gorgerous-movie-backgrounds-1920x1080-ipad-pro.jpg)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          height: "100vh",
+          height:"300vh"
+        
         }}
       >
         <div className="row">
