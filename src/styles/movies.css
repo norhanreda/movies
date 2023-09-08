@@ -37,6 +37,19 @@
     color: rgb(255, 255, 255);
 }
 
+.botn1 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: linear-gradient(0deg,white,rgb(186, 107, 27) ,rgb(32, 52, 90) );
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    transition: all 0.4s;
+    padding: 5px;
+}
+.botn1:hover {
+    background: orange;
+    color: rgb(255, 255, 255);
+}
 .image-card{
     width: 100%;
     transition: transform 0.4s ;

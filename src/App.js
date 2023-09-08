@@ -6,6 +6,7 @@ import Navbar from './components/navBar';
 import Card from './components/Card';
 import NotFound from './components/NotFound';
 import Home from './components/Home';
+import Contacts from './components/Contacts';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -24,7 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/movies" element={<Movies searchWord={searchWord} />}/>
-        {/* <Route path="/movies" element={<Movies  />}/> */}
+        <Route path="/contact" element={<Contacts />}/>
         <Route path="movie/:id" element={<Card />}/>
         <Route path="*" element={<NotFound/>}>
      
