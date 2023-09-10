@@ -1,3 +1,11 @@
+## About
+this website includes some informations about some movies like rating , can children watch this movie or not,the original language of the movie and the populatity of the movie so you can deceide if you will see this movie or not and this project was built with HTML ,CSS ,javascript,React JS and bootstrap and this project was for the ITI .
+
+
+## Website Link 
+https://movies-6d967.web.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
